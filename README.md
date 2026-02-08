@@ -27,43 +27,50 @@ Features:
 
 1. Data Loading & Exploration
 
-Download dataset via Kaggle API
-Perform initial inspection: missing values, data types, summary statistics
++ Download dataset via Kaggle API
++ Perform initial inspection: missing values, data types, summary statistics
++ 
 2. Exploratory Data Analysis (EDA)
 
-Class imbalance analysis (pie charts, count plots)
-Feature distribution and correlation analysis
-Relationship between features and target variable
++Class imbalance analysis (pie charts, count plots)
++Feature distribution and correlation analysis
++Relationship between features and target variable
+
 3. Data Preprocessing
 
-Handling categorical variables (OneHotEncoder, LabelEncoder)
-Scaling numerical features (StandardScaler)
-Addressing class imbalance with SMOTE, SMOTEENN, and RandomUnderSampler
++ Handling categorical variables (OneHotEncoder, LabelEncoder)
++ Scaling numerical features (StandardScaler)
++ Addressing class imbalance with SMOTE, SMOTEENN, and RandomUnderSampler
+
 4. Clustering Analysis
 
-Apply KMeans, Agglomerative Clustering, and DBSCAN
-Evaluate clustering quality using silhouette score, Davies-Bouldin index, and Calinski-Harabasz score
++Apply KMeans, Agglomerative Clustering, and DBSCAN
++Evaluate clustering quality using silhouette score, Davies-Bouldin index, and Calinski-Harabasz score
+
 5. Predictive Modeling
 
 Train multiple classifiers:
 
-Logistic Regression
-Random Forest
-XGBoost
-Support Vector Machine (SVM)
-Optimize hyperparameters using Optuna and GridSearchCV
-Evaluate models with accuracy, F1-score, precision, recall, and confusion matrices
++ Logistic Regression
++ Random Forest
++ XGBoost
++ Support Vector Machine (SVM)
++ Optimize hyperparameters using Optuna and GridSearchCV
++ Evaluate models with accuracy, F1-score, precision, recall, and confusion matrices
+
 6. Model Interpretation & Validation
 
-Cross-validation to ensure robustness
-Visualize model performance and feature importance
++ Cross-validation to ensure robustness
++ Visualize model performance and feature importance
 
 🚀 **How to Run**
 
-Clone or download the notebook.
-Install required libraries:
++ Clone or download the notebook.
++ Install required libraries:
 
-bash
+```bash
 pip install opendatasets optuna xgboost imbalanced-learn plotly
-Set up Kaggle API credentials (required for dataset download).
-Run the notebook cells sequentially to reproduce the analysis and models.
+```
++ Set up Kaggle API credentials (required for dataset download).
+
++ Run the notebook cells sequentially to reproduce the analysis and models.
