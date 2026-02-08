@@ -1,29 +1,29 @@
-📌 Overview
+📌 **Overview**
 
 This project focuses on analyzing a large-scale clinical diabetes dataset to predict diabetes risk using machine learning and clustering techniques. It involves comprehensive exploratory data analysis, preprocessing, feature engineering, and the implementation of various classification and clustering models.
 
 Developed as part of the Third Artificial Intelligence Project at Amirkabir University of Technology, this notebook provides an end-to-end pipeline for data science and predictive modeling in healthcare.
 
-📊 Dataset
+📊 **Dataset**
 
 The dataset used is the "100,000 Diabetes Clinical Dataset" from Kaggle, containing anonymized patient records with the following features:
 
 Features:
 
-year: Year of record
-gender: Gender of patient
-age: Age of patient
-location: Geographical location
-race: One-hot encoded race categories
-hypertension: Hypertension indicator
-heart_disease: Heart disease indicator
-smoking_history: Smoking status
-bmi: Body Mass Index
-hbA1c_level: HbA1c level
-blood_glucose_level: Blood glucose level
-diabetes: Target variable (0 = No Diabetes, 1 = Diabetes)
++ year: Year of record
++ gender: Gender of patient
++ age: Age of patient
++ location: Geographical location
++ race: One-hot encoded race categories
++ hypertension: Hypertension indicator
++ heart_disease: Heart disease indicator
++ smoking_history: Smoking status
++ bmi: Body Mass Index
++ hbA1c_level: HbA1c level
++ blood_glucose_level: Blood glucose level
++ diabetes: Target variable (0 = No Diabetes, 1 = Diabetes)
 
-📈 Project Workflow
+📈 **Project Workflow**
 
 1. Data Loading & Exploration
 
@@ -58,7 +58,7 @@ Evaluate models with accuracy, F1-score, precision, recall, and confusion matric
 Cross-validation to ensure robustness
 Visualize model performance and feature importance
 
-🚀 How to Run
+🚀 **How to Run**
 
 Clone or download the notebook.
 Install required libraries:
